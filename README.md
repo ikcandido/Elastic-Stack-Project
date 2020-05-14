@@ -114,8 +114,8 @@ SSH into the control node and follow the steps below:
 - `/etc/ansible/hosts` - add the IP of the specific machine you want to run an ansible on.
 
 *How do I specify which machine to install the ELK server on versus which to install Filebeat on?*
-- The VM IP's should be separated by [name of server to install on] with the correct VM IP listed below. ex. [elkservers].
-- When creating a playbook, the [server] will be listed as "hosts" in the text editor. ex. hosts: elkservers.
+- The VM IP's should be separated by [name of server to install on] with the correct VM IP listed below. Ex. `[elkservers]`.
+- When creating a playbook, the [server] will be listed as "hosts" in the text editor. Ex. `hosts: elkservers`.
 
 *Which URL do you navigate to in order to check that the ELK server is running?*
 - http://[ELK-VM Public IP]:5601 brings you to the Kibana website/dashboard.
