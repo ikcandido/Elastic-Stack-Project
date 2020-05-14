@@ -77,7 +77,7 @@ The playbook implements the following tasks:
       5601:5601 - Kibana web interface
       9200:9200 - Elasticsearch
       5044:5044 - Logstash interface, receives logs from Beats such as Filebeat
-- Run `elk_playbook.yml`
+- Run the `elk_playbook.yml`
 - SSH to ELK-VM
 - start sebp/elk docker
 
@@ -109,11 +109,14 @@ SSH into the control node and follow the steps below:
 
 *Which file is the playbook? Where do you copy it?*
 - The playbooks are in `filebeat.yml` and `metricbeat.yml`. The files are copied to `/etc/filbeat/filebeat.yml` and `/etc/metricbeat/metricbeat.yml`.
+
 *Which file do you update to make Ansible run the playbook on a specific machine?*
 - `/etc/ansible/hosts` - add the IP of the specific machine you want to run an ansible on.
+
 *How do I specify which machine to install the ELK server on versus which to install Filebeat on?*
 - The VM IP's should be separated by [name of server to install on] with the correct VM IP listed below. ex. [elkservers].
 - When creating a playbook, the [server] will be listed as "hosts" in the text editor. ex. hosts: elkservers.
+
 *Which URL do you navigate to in order to check that the ELK server is running?*
 - http://[ELK-VM Public IP]:5601 brings you to the Kibana website/dashboard.
 
