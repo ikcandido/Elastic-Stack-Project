@@ -1,8 +1,8 @@
 # Elk-Stack-Project
 
-The files in this repository were used to configure the network depicted in the diagram image below:
+The files in this repository were used to configure the network depicted in the image below:
 
-[Network_Diagram]: https://github.com/ikcandido/Elk-Stack-Project/blob/master/Diagrams/Network_Diagram.png
+[Network_Diagram](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Diagrams/Network_Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment in the network diagram. Alternatively, select portions of the playbook$
 
@@ -28,8 +28,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Filebeat: monitors log files and collects data about log events and the file system. The data is then forwarded to elasticsearch & logstash
 - Metricbeat: records machine metrics and sends data to elastricsearch and logstash.
 
-The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+The configuration details of each machine may be found below:
 
 | Name                | Function   | IP Address | Operating System |
 |---------------------|------------|------------|------------------|
