@@ -65,7 +65,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - The configurations stay the same each time playbooks are run, with minor adjustments between configurations.
 - Ansible also allows automatic configuration of multiple machines and is simple to use.
 
-
+[Elk Playbook](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Ansible/elk_playbook.yml)
 
 The playbook implements the following tasks:
 - Edit the `/etc/ansible/hosts` file to inclue ELK-VM IP address under [elkservers].
@@ -81,9 +81,9 @@ The playbook implements the following tasks:
 - SSH to ELK-VM
 - start sebp/elk docker
 
-The screenshot "docker_ps.png" displays the result of running `docker ps` after successfully configuring the ELK instance.
+The screenshot below displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-
+[Docker](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Images/docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
 - Update the configuration files to include the correct VM IP addresses
 - Run the playbook, and navigate to Kibana website to check that the installation worked as expected.
 
-
+[Check Data](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Images/Kibana_site.png)
 
 *Which file is the playbook? Where do you copy it?*
 - The playbooks are in `filebeat.yml` and `metricbeat.yml`. The files are copied to `/etc/filbeat/filebeat.yml` and `/etc/metricbeat/metricbeat.yml`.
