@@ -49,7 +49,7 @@ Only the Jump-Box Provisioner machine can accept connections from the Internet. 
 Machines within the network can only be accessed by SSH (port 22).
 - Jump-Box Provisioner VM with cyberxsecurity/ansible container is able to SSH into the DVWA-VM1 machine with cyberxsecurit/dvwa container and the ELK VM with sebp/elk container
 - Jump-Box Provisioner IP: 10.0.0.4
-- DVWA-VM1 IP: 10.0..5
+- DVWA-VM1 IP: 10.0.0.5
 - ELK-VM IP: 10.0.0.9
 
 A summary of the access policies in place can be found in the table below.
