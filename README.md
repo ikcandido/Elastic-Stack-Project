@@ -1,14 +1,10 @@
-# Candido-Elk-Stack-Project
+# Candido-Elk-Project
 
 The files in this repository were used to configure the network depicted in the image *Network Diagram*:
 
 [Network Diagram](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Diagrams/Network_Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment in the network diagram. Minor adjustments can be made to the playbook files to install various Elk Beats, such as Filebeat and Metricbeat.
-
-[Filebeat Playbook](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Ansible/filebeat_playbook.yml)
-
-[Metricbeat Playbook](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Ansible/metricbeat_playbook.yml)
+These files have been tested and used to generate a live ELK (Elastic Stack) deployment on Azure. They can be used to recreate the entire deployment in the network diagram. Minor adjustments can be made to the playbook files to install various Elk Beats, such as Filebeat and Metricbeat.
 
 This document contains the following details:
 - Description of the Topology
@@ -23,7 +19,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
-- Load balancers receive traffic that enters a website and distribute it across multiple servers. This is an important part of establishing a fault tolerant system and can play a role in the mitigation of DoS/DDoS attacks.
+- Load balancers receive traffic that enters a website and distribute it across multiple servers. This is an important part of establishing a fault tolerant system and can play a role in the mitigation of Denial of Service attacks (DoS).
 - One advantage of using a jump box is that it is a secure gateway to the additional VMs in the network and is typically used by system administrators. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to system logs/files and machine metrics.
@@ -71,8 +67,8 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 - Edit the `/etc/ansible/hosts` file to inclue ELK-VM IP address under [elkservers].
 - Add the correct username to the `/etc/ansible/ansible.cfg` file.
-- Create an Ansible playbook `elk_playbook.yml` that will: 
-  - Increase virtual machine memory size (sysctl -w vm.max_map_count=262144).
+- Create an Ansible playbook, `elk_playbook.yml`, that will: 
+  - Temporarily increase virtual machine memory size (sysctl -w vm.max_map_count=262144).
   - Install  docker.io, python-pip, and docker.
   - Allow ports:
       5601:5601 - Kibana web interface
@@ -87,23 +83,27 @@ The screenshot below displays the result of running `docker ps` after successful
 [Docker](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Images/docker_ps.png)
 
 ### Target Machines & Beats
-This ELK server is configured to monitor the following machines:
-- 10.0.0.5
+This ELK server is configured to monitor the following machine:
+- DVWA-VM1: 10.0.0.5
 
-We have installed the following Beats on these machines:
+We have installed the following Beats on this machine:
 - Filebeat
 - Metricbeat
 
-These Beats allow us to collect the following information from each machine:
+These Beats allow us to collect the following information from the machine:
 - Filebeat: monitors log files and collects data about log events and the file system. The data is then forwarded to elasticsearch & logstash
 - Metricbeat: collects machine metrics, such as CPU usage and memory, and sends data to elastricsearch and logstash.
+
+[Filebeat Playbook](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Ansible/filebeat_playbook.yml)
+
+[Metricbeat Playbook](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Ansible/metricbeat_playbook.yml)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
 SSH into the control node and follow the steps below:
 - Copy the source to destination files.
-- Update the configuration files to include the correct VM IP addresses
+- Update the configuration files to include the correct VM IP address.
 - Run the playbook, and navigate to Kibana website to check that the installation worked as expected.
 
 [Check Data](https://github.com/ikcandido/Elk-Stack-Project/blob/master/Images/Kibana_site.png)
@@ -112,7 +112,8 @@ SSH into the control node and follow the steps below:
 - The playbooks are in `filebeat.yml` and `metricbeat.yml`. The files are copied to `/etc/filbeat/filebeat.yml` and `/etc/metricbeat/metricbeat.yml`.
 
 *Which file do you update to make Ansible run the playbook on a specific machine?*
-- `/etc/ansible/hosts` - add the IP of the specific machine you want to run an ansible on.
+- `/etc/ansible/hosts` - Add the IP of the specific machine.
+- The configuration files for filebeat and metricbeat should also be updated to include the specific VM IP address.
 
 *How do I specify which machine to install the ELK server on versus which to install Filebeat on?*
 - The VM IP's should be separated by [name of server to install on] with the correct VM IP listed below. Ex. `[elkservers]`.
