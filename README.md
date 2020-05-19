@@ -32,8 +32,8 @@ The configuration details of each machine may be found below:
 | Name                | Function   | IP Address | Operating System |
 |---------------------|------------|------------|------------------|
 | Jump-Box Provisioner| Gateway    | 10.0.0.4   | Linux            |
-| DVWA-VM1            | Web Server | 10.0.0.5   | Linux            |
-| ELK-VM              | Elk Server | 10.0.0.9   | Linux            |
+| DVWA-VM1            | PenTest    | 10.0.0.5   | Linux            |
+| ELK-VM              | Monitor    | 10.0.0.9   | Linux            |
 
 ### Access Policies
 
