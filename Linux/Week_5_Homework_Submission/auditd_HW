@@ -1,0 +1,69 @@
+
+Authentication Report
+============================================
+# date time acct host term exe success event
+============================================
+1. 03/16/2020 21:23:14 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 68
+2. 03/16/2020 21:38:40 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 135
+3. 03/16/2020 21:41:12 root ? /dev/pts/0 /bin/su yes 159
+4. 03/17/2020 12:07:05 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 99
+5. 03/17/2020 12:07:11 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 177
+6. 03/17/2020 12:07:12 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 193
+7. 03/17/2020 12:17:21 sysadmin ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 315
+8. 03/17/2020 12:19:02 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 339
+9. 03/17/2020 12:33:49 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 401
+10. 03/17/2020 12:50:38 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 483
+11. 03/18/2020 11:39:14 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 93
+12. 03/18/2020 11:39:23 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 177
+13. 03/18/2020 11:39:23 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 188
+14. 03/18/2020 12:35:20 sysadmin ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 475
+15. 03/18/2020 12:46:19 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 535
+16. 03/18/2020 12:47:53 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 538
+17. 03/18/2020 13:10:06 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 651
+18. 03/18/2020 13:43:49 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 774
+19. 03/18/2020 14:35:17 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 965
+20. 03/18/2020 14:43:12 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 1002
+21. 03/18/2020 14:52:24 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 1044
+22. 03/18/2020 15:05:08 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 1090
+23. 03/18/2020 15:25:35 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 1182
+24. 03/18/2020 18:18:02 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 99
+25. 03/18/2020 18:18:11 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 181
+26. 03/18/2020 18:18:11 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 197
+27. 03/18/2020 18:30:11 sysadmin ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 310
+28. 03/18/2020 18:36:35 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 352
+29. 03/18/2020 19:12:10 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker no 481
+30. 03/18/2020 19:12:15 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 483
+31. 03/18/2020 19:23:56 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 528
+32. 03/18/2020 19:54:04 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 735
+33. 03/18/2020 20:04:02 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 774
+34. 03/18/2020 20:17:19 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 825
+35. 03/18/2020 21:29:42 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 1085
+36. 03/18/2020 21:33:19 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 1102
+37. 03/19/2020 10:20:04 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 102
+38. 03/19/2020 10:20:11 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 185
+39. 03/19/2020 10:20:11 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 196
+40. 03/19/2020 10:24:09 sysadmin ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 289
+41. 03/19/2020 10:36:26 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 356
+42. 03/19/2020 11:12:32 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 506
+43. 03/19/2020 12:38:39 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 97
+44. 03/19/2020 12:38:46 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 181
+45. 03/19/2020 12:38:46 gdm ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 193
+46. 03/19/2020 12:39:45 sysadmin ubuntu-desktop-base /dev/tty1 /usr/lib/gdm3/gdm-session-worker yes 266
+47. 03/19/2020 12:50:09 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 326
+48. 03/19/2020 12:59:05 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 359
+49. 03/19/2020 13:25:02 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker no 474
+50. 03/19/2020 13:28:22 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker no 489
+51. 03/19/2020 13:28:26 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 491
+52. 03/19/2020 13:30:20 sysadmin ? /dev/pts/0 /usr/bin/sudo yes 501
+53. 03/19/2020 14:30:38 sysadmin ubuntu-desktop-base /dev/tty2 /usr/lib/gdm3/gdm-session-worker yes 1084
+54. 03/19/2020 14:31:39 root ubuntu-desktop-base pts/0 /usr/bin/chfn yes 1308
+
+Account Modifications Report
+=================================================
+# date time auid addr term exe acct success event
+=================================================
+1. 03/19/2020 14:31:33 1002 ubuntu-desktop-base pts/0 /usr/sbin/groupadd ? yes 1248
+2. 03/19/2020 14:31:33 1002 ubuntu-desktop-base pts/0 /usr/sbin/groupadd ? yes 1249
+3. 03/19/2020 14:31:33 1002 ubuntu-desktop-base pts/0 /usr/sbin/groupadd ? yes 1250
+4. 03/19/2020 14:31:34 1002 ubuntu-desktop-base pts/0 /usr/sbin/useradd ? yes 1258
+5. 03/19/2020 14:31:39 1002 ubuntu-desktop-base pts/0 /usr/bin/passwd attacker yes 1305

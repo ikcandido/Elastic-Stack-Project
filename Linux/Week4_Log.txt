@@ -1,0 +1,51 @@
+-rw------- 1 root shadow 1923 Mar 12 15:23 /etc/shadow
+-rw------- 1 root shadow 903 Mar 12 15:23 /etc/gshadow
+-rw-r--r-- 1 root root 1090 Mar 12 15:23 /etc/group
+-rw-r--r-- 1 root root 2720 Mar 12 15:23 /etc/passwd
+
+uid=1001(sam) gid=1001(sam) groups=1001(sam),1006(engineers)
+uid=1002(joe) gid=1002(joe) groups=1002(joe),1006(engineers)
+uid=1003(amy) gid=1003(amy) groups=1003(amy),1006(engineers)
+uid=1004(sara) gid=1004(sara) groups=1004(sara),1006(engineers)
+uid=1005(admin) gid=1005(admin) groups=1005(admin)
+
+Last password change					: Mar 12, 2020
+Password expires					: Jun 10, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 12, 2020
+Password expires					: Jun 10, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 12, 2020
+Password expires					: Jun 10, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 12, 2020
+Password expires					: Jun 10, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 12, 2020
+Password expires					: Jun 10, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+
+engineers:x:1006:sam,joe,amy,sara
+
+drwxr-sr-t 2 root engineers 4096 Mar 12 15:10 /home/engineers/
+

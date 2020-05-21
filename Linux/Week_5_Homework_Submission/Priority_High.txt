@@ -1,0 +1,4 @@
+-- Logs begin at Sat 2020-02-29 09:43:58 EST, end at Sat 2020-03-21 20:34:28 EDT. --
+Mar 14 14:28:21 ubuntu-desktop-base gnome-session-binary[4018]: CRITICAL: We failed, but the fail whale is dead. Sorry....
+-- Reboot --
+Mar 16 19:17:06 ubuntu-desktop-base sudo[4711]: pam_unix(sudo:auth): auth could not identify password for [sysadmin]
